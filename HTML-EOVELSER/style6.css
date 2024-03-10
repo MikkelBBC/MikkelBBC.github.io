@@ -1,0 +1,10 @@
+#greenting p{
+
+    background-color: blueviolet;
+    padding:  10px;
+    display:  none;
+}
+#greenting:hover p{
+
+    display: block;
+}
