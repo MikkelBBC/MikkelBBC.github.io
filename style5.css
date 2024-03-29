@@ -1,0 +1,17 @@
+li:hover{
+
+    background-color: tomato;
+
+
+}
+li:not(:hover){
+
+    background-color: lightgreen;
+
+}
+li:nth-child(3n+2){
+
+    background-color: lightblue;
+
+}
+
