@@ -619,10 +619,11 @@ footer{
 
     
 }
-@media only screen and (min-width: 600px) {
-    /* Stilarter der kun gælder for skærme med en minimumsbredde på 600px (typisk for desktops) */
-    .mobile-layout {
-      display: none; /* Skjul elementer, der kun er beregnet til mobilvisning */
+
+@media only screen and (max-width: 600px) {
+    /* Stilarter der kun gælder for skærme med en maksimal bredde på 600px (typisk for telefoner) */
+    body {
+      font-size: 14px; /* Juster fontstørrelse til en mere passende størrelse for små skærme */
     }
-  }
-  
+}
+    
