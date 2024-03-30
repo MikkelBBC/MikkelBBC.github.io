@@ -37,13 +37,18 @@ main{
     float: left;
 }
 .trustpilot{
-    text-align: center;
-    font-size: 40px;
-    margin-top: 5em;
-    justify-content: space-around;
-    
+    width: 500%;
+    height: 20%;
 
+    
+  
+    
 }
+#logo{
+    width: 20%;
+    height: 20%;
+}
+
 #container{
     background-color:  rgb(246, 242, 250);
     display: flex;
@@ -58,7 +63,12 @@ main{
     text-align: center;
     animation-name: Left;
     animation-duration: 5s;
+   
     
+}
+#TBHBILLEDID{
+    height: 100%;
+    width: 100%;
 }
 @keyframes Left{
     from{transform: translateX(300%)}
@@ -620,10 +630,560 @@ footer{
     
 }
 
-@media only screen and (max-width: 600px) {
-    /* Stilarter der kun gælder for skærme med en maksimal bredde på 600px (typisk for telefoner) */
-    body {
-      font-size: 14px; /* Juster fontstørrelse til en mere passende størrelse for små skærme */
+@media only screen and (max-width: 500px){
+    #TBHTITLEN{
+        font-size: 40px;
+        border : 10px solid black;
     }
+    .navbar a{
+        font-size: 20px;
+        width: 100%;
+        height: 5px;
+        text-align: center;
+        
+
+
+
+      
+    }
+
+    .navbar ul{
+        font-size: 20px;
+    }
+
+    .pagination{
+        font-size: 40px;
+    }
+    #icons{
+        font-size: 40px;
+    }
+    #logo{
+        width: 30%;
+        height: 20%;
+    }
+    #container{
+       
+        background-color:  rgb(246, 242, 250);
+    display: flex;
+    flex-direction: row;
+    border : 5px solid black;
+    height: 450vh;
+    justify-content: space-around;
+    align-items: center; ;
+
+        font-size: 30px;
+    }
+    .Billeder{
+        text-shadow: 2px 2px 4px #000;
+        display: flex;
+        flex-direction: row;
+        border : 10px solid black;
+        height: 50vh;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(246, 242, 250);
+        position: relative;
+
+       
+    }
+    .Billeder::after{
+        font-size: 30px;
+       
+    
+        content: "Klik på en person for lære mere om dem  ";
+        position: absolute;
+        top: 85%;
+        left: 10%;
+        background-color: rgb(246, 242, 250);
+    
+    
+    
+        
+       
+    }
+    #HANZIBILLED1{
+        height: 100%;
+        width: 160%;
+    }
+    #PHILBILLED1{
+        height: 100%;
+        width: 160%;
+    }
+    #LETHBILLED1{
+        height: 100%;
+        width: 100%;
+    }
+    .Billeder2{
+    
+        font-size: 40px;
+        text-align: center;
+        border : 10px solid black;
+        justify-content: space-around;
+        height: 50vh;
+    
+        
+        animation-duration: 5s;
+        
+       
+    }
+    #MARIUSBILLEDET{
+        height: 100%;
+        width: 100%;
+    }
+    #TBHTEKST{
+        background-color:  rgb(246, 242, 250);
+        font-size: 40px;
+        text-align: center;
+        border : 5px solid black;
+        justify-content: space-around;
+        animation-name: Left;
+        animation-duration: 5s;
+        
+       
+    }
+    #STATS1{
+        height: 100%;
+        width: 100%;
+    }
+    #TBHTEKST1{
+        background-color:  rgb(246, 242, 250);
+        font-size: 40px;
+        text-align: center;
+        border : 10px solid black;
+        justify-content: space-around;
+        animation-name: DISCO;
+        animation-duration: 5s;
+        animation: DISCO 2s linear infinite;
+       
+    }
+
+   
+    #test{
+        background-color: blue;
+        padding: 1px;
+        height: 40vh;
+        width: 25%;
+       
+        border: 2px solid #050505;
+        border-radius: 0px;
+        font-size: 40px;
+        margin: 0;
+
+        font-size: 25px;
+       
+    
+    }
+    #test1{
+        background-color: red;
+        padding: 0px;
+        height: 40vh;
+        width: 25%;
+     
+        border: 2px solid #050505;
+        border-radius: 0px;
+        font-size: 50px;
+        margin: 0;
+
+        font-size: 25px;
+    
+    }
+    #test2{
+        background-color: green;
+        padding: 0px;
+        height: 40vh;
+        width: 25%;
+
+      
+        border: 2px solid #0e0d0d;
+        border-radius: 0px;
+        font-size: 40px;
+        margin: 0;
+
+        font-size: 25px;
+    
+    }
+    #test3{
+        background-color: #f1f1f1;
+        padding: 0px;
+        height: 40vh;
+        width: 25%;
+       
+        border: 2px solid #050505;
+        border-radius: 0px;
+        font-size: 40px;
+        margin: 0;
+
+        font-size: 25px;
+    
+    }
+    .Knapper{
+        text-shadow: 2px 2px 4px #000;
+        display: flex;
+        flex-direction: row;
+        border : 5px solid black;
+        height: 55vh;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(246, 242, 250);
+        position: relative;
+        margin: 0;
+        
+    }
+    .Knapper::after{
+        font-size: 30px;
+       
+    
+        content: "HVAD SIGER TBH OM DEN SEKSUELLE LAVALDER ";
+        position: absolute;
+        top: 96%;
+        left: 0%;
+        background-color: rgb(246, 242, 250);
+    }
+    #test4{
+        background-color: blue;
+        padding: 0px;
+        height: 40vh;
+        width: 25%;
+        margin: 0;
+        border: 2px solid #050505;
+        border-radius: 0px;
+        font-size: 40px;
+        margin: 0;
+
+        font-size: 25px;
+    
+    }
+    #test5{
+        background-color: red;
+        padding: 0px;
+        height: 40vh;
+        width: 25%;
+        margin: 0;
+        border: 2px solid #050505;
+        border-radius: 0px;
+        font-size: 40px;
+        margin: 0;
+
+        font-size: 25px;
+    
+    }
+    #test6{
+        background-color: green;
+        padding: 0px;
+        height: 40vh;
+        width: 25%;
+        margin: 0;
+        border: 2px solid #050505;
+        border-radius: 0px;
+        font-size: 40px;
+        margin: 0;
+
+        font-size: 25px;
+    
+    }
+    #test7{
+        background-color: #f1f1f1;
+        padding: 0px;
+        height: 40vh;
+        width: 25%;
+        margin: 0;
+        border: 2px solid #050505;
+        border-radius: 0px;
+        font-size: 40px;
+        margin: 0;
+
+        font-size: 25px;
+    
+    }
+    #test8{
+        background-color: blue;
+        padding: 0px;
+        height: 40vh;
+        width: 25%;
+        margin: 0;
+        border: 2px solid #050505;
+        border-radius: 0px;
+        font-size: 40px;
+        margin: 0;
+
+        font-size: 25px;
+    
+    }
+    #test9{
+        background-color: red;
+        padding: 0px;
+        height: 40vh;
+        width: 25%;
+        margin: 0;
+        border: 2px solid #050505;
+        border-radius: 0px;
+        font-size: 40px;
+        margin: 0;
+
+        font-size: 25px;
+    
+    }
+    #test10{
+        background-color: green;
+        padding: 0px;
+        height: 40vh;
+        width: 25%;
+        margin: 0;
+        border: 2px solid #050505;
+        border-radius: 0px;
+        font-size: 40px;
+        margin: 0;
+
+        font-size: 25px;
+    
+    }
+    #test11{
+        background-color: #f1f1f1;
+        padding: 0px;
+        height: 40vh;
+        width: 25%;
+        margin: 0;
+        border: 2px solid #050505;
+        border-radius: 0px;
+        font-size: 40px;
+        margin: 0;
+
+        font-size: 25px;
+    
+    }
+    .Knapper1{
+        text-shadow: 2px 2px 4px #000;
+        display: flex;
+        flex-direction: row;
+        border : 5px solid black;
+        height: 55vh;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(246, 242, 250);
+        position: relative;
+        margin: 0;
+        
+    }
+    .Knapper1::after{
+        font-size: 30px;
+       
+    
+        content: "HVAD SIGER TBH OM DEN SEKSUELLE LAVALDER ";
+        position: absolute;
+        top: 96%;
+        left: 0%;
+        background-color: rgb(246, 242, 250);
+    }
+    #test12{
+        background-color: blue;
+        padding: 0px;
+        height: 40vh;
+        width: 25%;
+        margin: 0;
+        border: 2px solid #050505;
+        border-radius: 0px;
+        font-size: 40px;
+        margin: 0;
+
+        font-size: 25px;
+    
+    }
+    #test13{
+        background-color: red;
+        padding: 0px;
+        height: 40vh;
+        width: 25%;
+        margin: 0;
+        border: 2px solid #050505;
+        border-radius: 0px;
+        font-size: 40px;
+        margin: 0;
+
+        font-size: 25px;
+    
+    }
+    #test14{
+        background-color: green;
+        padding: 0px;
+        height: 40vh;
+        width: 25%;
+        margin: 0;
+        border: 2px solid #050505;
+        border-radius: 0px;
+        font-size: 40px;
+        margin: 0;
+
+        font-size: 25px;
+    
+    }
+    #test15{
+        background-color: #f1f1f1;
+        padding: 0px;
+        height: 40vh;
+        width: 25%;
+        margin: 0;
+        border: 2px solid #050505;
+        border-radius: 0px;
+        font-size: 40px;
+        margin: 0;
+
+        font-size: 25px;
+    
+    }
+    #test16{
+        background-color: blue;
+        padding: 0px;
+        height: 40vh;
+        width: 25%;
+        margin: 0;
+        border: 2px solid #050505;
+        border-radius: 0px;
+        font-size: 40px;
+        margin: 0;
+
+        font-size: 25px;
+    
+    }
+    #test17{
+        background-color: red;
+        padding: 0px;
+        height: 40vh;
+        width: 25%;
+        margin: 0;
+        border: 2px solid #050505;
+        border-radius: 0px;
+        font-size: 40px;
+        margin: 0;
+
+        font-size: 25px;
+    
+    }
+    #test18{
+        background-color: green;
+        padding: 0px;
+        height: 40vh;
+        width: 25%;
+        margin: 0;
+        border: 2px solid #050505;
+        border-radius: 0px;
+        font-size: 40px;
+        margin: 0;
+
+        font-size: 25px;
+    
+    }
+    #test19{
+        background-color: #f1f1f1;
+        padding: 0px;
+        height: 40vh;
+        width: 25%;
+        margin: 0;
+        border: 2px solid #050505;
+        border-radius: 0px;
+        font-size: 40px;
+        margin: 0;
+
+        font-size: 25px;
+    
+    }
+    .Knapper2{
+        text-shadow: 2px 2px 4px #000;
+        display: flex;
+        flex-direction: row;
+        border : 5px solid black;
+        height: 55vh;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(246, 242, 250);
+        position: relative;
+        margin: 0;
+        
+    }
+    .Knapper2::after{
+        font-size: 30px;
+       
+    
+        content: "HVAD VIL TBH GØR HVIS EN GRAVID DAME MANGLER EN PLADS I BUSSEN ";
+        position: absolute;
+        top: 96%;
+        left: 0%;
+        background-color: rgb(246, 242, 250);
+    }
+    .Knapper3{
+        text-shadow: 2px 2px 4px #000;
+        display: flex;
+        flex-direction: row;
+        border : 5px solid black;
+        height: 55vh;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(246, 242, 250);
+        position: relative;
+        margin: 0;
+        
+    }
+    .Knapper3::after{
+        font-size: 30px;
+       
+    
+        content: "HVAD ER TBHS HOLDNING TIL LIGESTILLING";
+        position: absolute;
+        top: 96%;
+        left: 0%;
+        background-color: rgb(246, 242, 250);
+    }
+    .Knapper4{
+        text-shadow: 2px 2px 4px #000;
+        display: flex;
+        flex-direction: row;
+        border : 5px solid black;
+        height: 55vh;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(246, 242, 250);
+        position: relative;
+        margin: 0;
+        
+    }
+    .Knapper4::after{
+        font-size: 30px;
+       
+    
+        content: "HVAD ER TBHS LIVS RÅD TIL UNGE MENNESKER  ";
+        position: absolute;
+        top: 96%;
+        left: 0%;
+        background-color: rgb(246, 242, 250);
+    }
+    #TBHTEKST3{
+        background-color:  rgb(246, 242, 250);
+        font-size: 40px;
+        text-align: center;
+        border : 5px solid black;
+        justify-content: space-around;
+       
+        animation-duration: 5s;
+        
+       
+    }
+    #RAIDSHADOW{
+        height: 100%;
+        width: 100%;
+    }
+
+
+    
+
+   
+    
+  
+
+    
+
+
+
+
+
+
 }
     
