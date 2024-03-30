@@ -366,6 +366,407 @@ body{
    
 
 }
+@media only screen and (max-width: 500px){
+    body{
 
+
+        background-image: url(/AnsøningBagrund.png);
+    
+        background-position: center;
+
+
+        background-size: 30%;
+    
+       
+        background-attachment: fixed;
+        
+        background-position: center;
+    
+    
+    
+        background-color: rgb(234, 218, 234);
+    
+    
+    
+       
+    
+    }
+    #navn{
+       
+        position: absolute;
+        top: 200%;
+        left: 0%;
+        background-color: rgb(246, 242, 250);
+    
+        
+    }
+    #navn p{
+        font-size: 10px;
+    
+        background-color: rgb(246, 242, 250);
+        padding:  10px;
+        display:  none;
+    }
+    #navn:hover p{
+        font-size: 10px;
+    
+        display: block;
+    }
+    #angangskode{
+        position: absolute;
+        top: 160%;
+        left: 0%;
+        background-color: rgb(246, 242, 250);
+    
+        
+    }
+    #angangskode p{
+        font-size: 10px;
+    
+        background-color: rgb(246, 242, 250);
+        padding:  10px;
+        display:  none;
+    }
+    #angangskode:hover p{
+        font-size: 10px;
+    
+        display: block;
+    }
+    #email1{
+        position: absolute;
+        top:       120%;
+        left:  0%;
+        background-color: rgb(246, 242, 250);
+    
+        
+    }
+    #email1 p{
+        font-size: 10px;
+    
+        background-color: rgb(246, 242, 250);
+        padding:  10px;
+        display:  none;
+    }
+    #email1:hover p{
+        font-size: 10px;
+    
+        display: block;
+    }
+    
+    #telefon{
+        position: absolute;
+        top: 250%;
+        left: 0%;
+        background-color: rgb(246, 242, 250);
+    
+        
+    }
+    #telefon p{
+        font-size: 10px;
+    
+        background-color: rgb(246, 242, 250);
+        padding:  10px;
+        display:  none;
+    }
+    #telefon:hover p{
+        font-size: 10px;
+    
+        display: block;
+    }
+    #fødselsdag{
+        position: absolute;
+        top: 50%;
+        left: 0%;
+        background-color: rgb(246, 242, 250);
+    
+        
+    }
+    #fødselsdag p{
+        font-size: 10px;
+    
+        background-color: rgb(246, 242, 250);
+        padding:  10px;
+        display:  none;
+    }
+    #fødselsdag:hover p{
+        font-size: 10px;
+    
+        display: block;
+    }
+    #fødeselsdag2{
+        position: absolute;
+        top: 300%;
+        left: 0%;
+        background-color: rgb(246, 242, 250);
+    
+        
+    }
+    #fødeselsdag2 p{
+        font-size: 10px;
+    
+        background-color: rgb(246, 242, 250);
+        padding:  10px;
+        display:  none;
+    }
+    #fødeselsdag2:hover p{
+        font-size: 10px;
+    
+        display: block;
+        
+    }
+    #textboxid
+    {
+        height:200px;
+        font: size 140px;
+    }
+    #land{
+        position: absolute;
+        top: 85%;
+        left: 0%;
+        background-color: rgb(246, 242, 250);
+    
+        
+    }
+    #efternavn{
+        position: absolute;
+        top: 340%;
+        left: 0%;
+        background-color: rgb(246, 242, 250);
+    
+        
+    }
+    #reset{
+        position: absolute;
+        top: 400%;
+        left: 0%;
+        background-color: rgb(246, 242, 250);
+    
+        
+    }
+    #reset p{
+        font-size: 10px;
+    
+        background-color: rgb(246, 242, 250);
+        padding:  10px;
+        display:  none;
+    }
+    #reset:hover p{
+        font-size: 100px;
+    
+        display: block;
+    }
+    #efternavn p{
+        font-size: 10px;
+    
+        background-color: rgb(246, 242, 250);
+        padding:  10px;
+        display:  none;
+    }
+    #efternavn:hover p{
+        font-size: 100px;
+    
+        display: block;
+    }
+    #land p{
+        font-size: 100px;
+    
+        background-color: rgb(246, 242, 250);
+        padding:  10px;
+        display:  none;
+    }
+    #land:hover p{
+        font-size: 100px;
+    
+        display: block;
+    }
+    #email{
+        position: absolute;
+        top: 70%;
+        left: 0%;
+        background-color: rgb(246, 242, 250);
+    
+        
+    }
+    #email p{
+        font-size: 100px;
+    
+        background-color: rgb(246, 242, 250);
+        padding:  10px;
+        display:  none;
+    }
+    #email:hover p{
+        font-size: 10px;
+    
+        display: block;
+    }
+    #send{
+        position: absolute;
+        top: 100%;
+        left: 0%;
+        background-color: rgb(246, 242, 250);
+
+    }
+    #send p{
+        font-size: 100px;
+    
+        background-color: rgb(246, 242, 250);
+        padding:  10px;
+        display:  none;
+    }
+    #send:hover p{
+        font-size: 10px;
+    
+        display: block;
+    }
+    #send{
+        position: absolute;
+        top: 5000%;
+        left: 0%;
+        background-color: rgb(246, 242, 250);
+    }
+    #send p{
+        font-size: 100px;
+    
+        background-color: rgb(246, 242, 250);
+        padding:  10px;
+        display:  none;
+    }
+    #send:hover p{
+        font-size: 10px;
+    
+        display: block;
+    }
+    #Motivation{
+        position: absolute;
+        top: 95%;
+        left: 0%;
+        background-color: rgb(246, 242, 250);
+        width: 1000%;
+    }
+    #Motivation p{
+        font-size: 100px;
+    
+        background-color: rgb(246, 242, 250);
+        padding:  10px;
+        display:  none;
+    }
+    #Motivation:hover p{
+        font-size: 100px;
+    
+        display: block;
+    }
+    .navbar ul{
+        
+        list-style-type: none;
+        background-color: rgb(81, 67, 93);
+        padding: 0px;
+        margin: 0px;
+        overflow: hidden;
+        font-size: 40px;
+    }
+    .navbar a{
+        font-size: 55px;
+        display: block;
+        color: white;
+        text-decoration: none;
+        padding: 15px;
+        text-align: center;
+    
+    
+    
+    }
+    .navbar a:hover{
+        background-color: rgb(23, 22, 22);
+    }
+    .navbar li{
+        float: left;
+    }
+    #icons{
+    
+        font-size: 80px;
+    
+    
+    }
+    .fa-solid.fa-house.fa-2xl{
+    
+    
+    
+        color: rgb(0, 0, 0);
+    }
+    .fa-sharp.fa-solid.fa-square-envelope.fa-2xl{
+    
+    
+    
+        color: rgb(64, 0, 255);
+    }
+    .fa-brands.fa-square-instagram.fa-2xl{
+    
+    
+        color: red;
+    }
+    .pagination{
+    
+        text-align: center; 
+        font-size: 100px;
+     }
+     .pagination a{
+         color:black;
+         text-decoration: none;
+         padding: 8px 16px;
+         display: inline-block;
+     }
+     .pagination a.active{
+         background-color: #4CAF50;
+         font-weight: bold;
+         border-radius: 5px;
+     }
+     .pagination a:hover:not(.active){
+         background-color: #6f7d6e;
+         border-radius: 5px;
+     }
+     #test3{
+        position: absolute;
+        top: 105%;
+        right:  20%;
+        background-color: #f1f1f1;
+        padding: 100px;
+        height: 10%;
+        width: 50%;
+        margin: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 70px;
+       
+    
+    }
+
+    #fname{
+        
+        
+
+        font-size: 1px;
+    
+        
+    }
+
+    #navn{
+       
+        position: absolute;
+        top: 700%;
+        left: 0%;
+        background-color: rgb(246, 242, 250);
+
+        font-size: 1px;
+    
+        
+    }
+
+
+
+
+
+
+
+}
 
 
