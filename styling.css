@@ -1,0 +1,52 @@
+body {
+    background-image: url('drukspil_baggrund.png');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+header {
+ /* Set background image */
+    background-size: cover; /* Cover the entire header */
+    background-position: center; /* Center the background image */*/
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10vh;
+    margin-bottom: 60px;
+}
+
+#knapHolder {
+    width: 100vw;
+    height: 20vh;
+   /* Center the button horizontally */
+}
+
+#hentTekst {
+    margin: 20px auto;
+    display:block; /* Change display to inline-block */
+    width: 250px; /* Set a fixed width */
+    height: 120px; /* Set a fixed height */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 40px; /* Adjust border radius to make it square */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#kortHolder {
+    width: 30vw; /* Set width as needed */
+    height: 8vh;
+    background-color: #f0f0f0;
+    padding: 50px;
+    margin: 20px auto; /* Center the card horizontally */
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+#hentTekst:hover {
+    background-color: #0056b3;
+}
